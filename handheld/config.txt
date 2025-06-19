@@ -8,12 +8,6 @@ dtparam=i2c-arm=on
 dtparam=spi=on
 #dtdebug=1
 
-# Thermal Camera Config
-#kernel=vmlinuz-6.12.25-v8-lepton
-#initramfs initrd.img-6.12.25-v8-lepton followkernel
-#overlay_prefix=linux_image_overlays/
-
-
 #Enable some extra SPI busses
 dtoverlay=spi0-1cs
 dtoverlay=spi5-1cs
