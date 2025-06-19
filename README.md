@@ -7,7 +7,7 @@ You should probably not expect me to know more than you. I am merely a highschoo
 
 Oh also, the fbtft-overlay thing was pretty cool. I had to decompile fbtft, add overrides for more SPI busses (ones that support DMA and only exist on later models of raspi such as 4 and 5) and recompile! That took me a long time to figure out. Hopefully this helps someone eventually who wants to have multiple fbtft screens despite all the cons.
 
-#Specs Of Hardware
+# Specs Of Hardware
 
 The turret is 3d printed and modeled by my friend, so it might not be uploaded. Maybe I'll ask him later. I doubt this will gain traction, though. Anyways, there are 2 RPI4 4GBs. I am using 3 HiLetGo 320x240 SPI displays. For cameras, I am using a c270 logitech, a (i think) RPI camera module v2.1, and a lepton 3.1r with a purethermal mini pro. I got the no connector variety because it was on sale for 25 dollars, and it still is by time of writing on groupgets. Sidenote: I kind of regret buying the 3.1r. To be honest, I think the lepton 3.5 might just be better for this, because it will have a higher range given its lower FOV. Regardless, if you're planning on doing this project, I suggest a 3.1r if you want to not have to edit my code, or just nab a lepton 3.5 if you want to do some tinkering with my stuff. As a sidenote, unless someone asks me to, I am not planning on making a support guide for a complete newbie. I am, however, open to anyone asking. I do have summer credit advancement so I might not be able to answer quickly. Also, as previously stated, you likely know more than me. 
 
